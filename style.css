@@ -1,0 +1,90 @@
+/* style.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#ebf794;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button#submit {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button#submit:hover {
+    background-color: #45a049;
+}
+
+button#resBtn {
+    background-color: #f44336;
+    color: white;
+}
+
+button#resBtn:hover {
+    background-color: #e53935;
+}
+
+#msg {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#attempt {
+    font-weight: bold;
+}
+
+#highScore {
+    color: #333;
+    font-size: 14px;
+    margin-top: 10px;
+}
